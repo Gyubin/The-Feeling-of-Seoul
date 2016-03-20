@@ -39,10 +39,8 @@
 
 ### 2.1 추가할 variable
 
-- Lorem ipsum.
-- Lorem ipsum.
+- 날씨 기록
 
 ### 2.2 분석 가능한 내용
 
-- Lorem ipsum.
-- Lorem ipsum.
+- 날씨에 따라 리뷰 긍부정이나 별점, 리뷰 수가 어떻게 달라졌는지
