@@ -1,0 +1,21 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>DOT</title>
+        <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="{% static 'css/result3.css' %}">
+    </head>
+    <body>
+        <div>
+            <h1><a href="/">Deep dive into Seoul</a></h1>
+        </div>
+        <div>
+            <h1>3팀 상균-그리나: 긍부정에서 각각 주요 단어 뽑고 의미 도출</h1>
+        </div>
+        <p> Sentiment Analysis </p>
+        <div class="greena">
+          <svg id="myGraph"></svg>
+        </div>
+        <script src="{% static 'js/result3.js' %}"></script>
+    </body>
+</html>
