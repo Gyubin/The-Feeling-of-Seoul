@@ -1,5 +1,6 @@
+(function() {
 var svgWidth = 1280;
-var svgHeight = 2000;
+var svgHeight = 1500;
 var svg = d3.select("#myGraph");
 var legendWidth = 100,
     legendHeight = 15,
@@ -153,7 +154,7 @@ var makeChart = function(svg, dataset, order, key){
       .attr("class", "scaleNum")
       .attr("x", margin.left + 320)
       .attr("y", margin.top + 43)
-      .text("중???부정")
+      .text("반부정")
       .attr("opacity", 0)
       .transition()
       .delay(1600)
@@ -177,7 +178,7 @@ var makeChart = function(svg, dataset, order, key){
       .attr("class", "scaleNum")
       .attr("x", margin.left + 680)
       .attr("y", margin.top + 43)
-      .text("중??긍정")
+      .text("반긍정")
       .attr("opacity", 0)
       .transition()
       .delay(1600)
@@ -323,4 +324,4 @@ d3.json("get_data_3", function(error, dataset) {
   }
 });
 
-
+})();
