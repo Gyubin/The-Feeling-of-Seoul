@@ -1,0 +1,58 @@
+{
+ "name": "Bukchon",
+ "children": [
+  {
+     "name": "Area",
+     "content": ": 조용한 주택가가 형성",
+     "children": [
+      {"name": "residential", "size": 12, "content": " → Area"},
+      {"name": "house", "size": 3, "content": " → Area"},
+      {"name": "korean", "size": 2, "content": " → Area"},
+      {"name": "walk", "size": 2, "content": " → Area"},
+      {"name": "traditional", "size": 1, "content": " → Area"}
+     ]
+    },
+    {
+     "name": "House",
+     "content": ": 전통적이고 걷기 좋은 곳에 게스트하우스가 있음",
+     "children": [
+      {"name": "traditional", "size": 14, "content": " → House"},
+      {"name": "area", "size": 7, "content": " → House"},
+      {"name": "People", "size": 6, "content": " → House"},
+      {"name": "tourist", "size": 4, "content": " → House"},
+      {"name": "shop", "size": 3, "content": " → House"}
+     ]
+    },
+    {
+     "name": "Bukchon",
+     "content": ": 한옥 마을이 형성",
+     "children": [
+      {"name": "village", "size": 5, "content": " → Bukchon"},
+      {"name": "Hanok", "size": 5, "content": " → Bukchon"},
+      {"name": "Visit", "size": 2, "content": " → Bukchon"},
+      {"name": "Seoul", "size": 2, "content": " → Bukchon"},
+      {"name": "palace", "size": 1, "content": " → Bukchon"}
+     ]
+    },
+        {
+     "name": "Traditional",
+     "content": ": 한국의 전통 가옥을 볼 수 있음",
+     "children": [
+      {"name": "house", "size": 2, "content": " → Traditional"},
+      {"name": "Korean", "size": 1, "content": " → Traditional"},
+      {"name": "Seoul", "size": 1, "content": " → Traditional"},
+      {"name": "area", "size": 1, "content": " → Traditional"},
+      {"name": "Bukchon", "size": 1, "content": " → Traditional"}
+     ]
+    },
+    {
+     "name": "Winter",
+     "content": ": 겨울연가 촬영 장소인 중앙고등학교 방문",
+     "children": [
+      {"name": "Sonata", "size": 4, "content": " → Winter"},
+      {"name": "School", "size": 2, "content": " → Winter"},
+      {"name": "High", "size": 3, "content": " → Winter"}
+     ]
+    }
+ ]
+}

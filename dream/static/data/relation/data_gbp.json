@@ -1,0 +1,34 @@
+{
+ "name": "경복궁",
+ "children": [
+  {
+     "name": "Guard",
+     "content": ": 입구에서 수문장 교대식이 진행되며 인기있음",
+     "children": [
+      {"name": "changing", "size": 54, "content": " → Guard"},
+      {"name": "Visit", "size": 11, "content": " → Guard"},
+      {"name": "Ceremony", "size": 6, "content": " → Guard"},
+      {"name": "Folk", "size": 4, "content": " → Guard"},
+      {"name": "Museum", "size": 3, "content": " → Guard"}
+     ]
+    },
+    {
+     "name": "Museum",
+     "content": ": 경복궁에 위치한 국립민속박물관을 많이 방문함",
+     "children": [
+      {"name": "Folk", "size": 17, "content": " → Museum"},
+      {"name": "National", "size": 4, "content": " → Museum"},
+      {"name": "Visit", "size": 3, "content": " → Museum"},
+      {"name": "Changing", "size": 2, "content": " → Museum"}
+     ]
+    },
+    {
+     "name": "City",
+     "content": ": 베이징의 자금성을 많이 떠올림",
+     "children": [
+      {"name": "Forbidden", "size": 2, "content": " → City"},
+      {"name": "Beijing", "size": 1, "content": " → City"}
+     ]
+    }
+ ]
+}
