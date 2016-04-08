@@ -3,7 +3,7 @@ from django.http import JsonResponse
 import json
 
 def index(request):
-    return render(request, 'dream/index.html', {})
+    return render(request, 'dream/project.html', {})
 
 def result1(request):
     return render(request, 'dream/result1.html', {})
@@ -16,7 +16,7 @@ def result3(request):
 
 def result4(request):
     return render(request, 'dream/result4.html')
-    
+
 def get_data_1(request):
     with open('dream/static/data/file_name1.json') as data_file:
         data = json.load(data_file)

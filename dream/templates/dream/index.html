@@ -11,10 +11,18 @@
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static 'css/agency.css' %}" rel="stylesheet">
     <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/tab/demo.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/tab/normalize.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/tab/tabs.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/tab/tabstyles.css' %}">
+    <script src="{% static 'js/tab/modernizr.custom.js' %}"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/gyubin_offset.css' %}">
 </head>
 
 <body id="page-top" class="index">
@@ -68,9 +76,9 @@
                     <h3 class="section-subheading text-muted">당신이 느끼고 경험하는 진짜 리얼 서울의 모습</h3>
                 </div>
             </div>
-            
+
             <div class="row"> <!-- 7개 관광지가 모여있는 부분 -->
-                
+
                 <!-- 전쟁기념관 -->
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
@@ -83,10 +91,10 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>전쟁기념관</h4>
-                        <p class="text-muted">The war memorial of Korea</p>
+                        <p class="text-muted">War Memorial of Korea</p>
                     </div>
                 </div>
-                
+
                 <!-- 인사동 -->
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
@@ -99,10 +107,10 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>인사동</h4>
-                        <p class="text-muted">Insadong</p>
+                        <p class="text-muted">Insa-dong</p>
                     </div>
                 </div>
-                
+
                 <!-- 창덕궁 -->
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
@@ -115,10 +123,10 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>창덕궁</h4>
-                        <p class="text-muted">ChangDeok Palace</p>
+                        <p class="text-muted">Changdeokgung</p>
                     </div>
                 </div>
-                
+
                 <!-- 북촌 -->
                 <div class="col-md-3 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
@@ -131,10 +139,10 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>북촌</h4>
-                        <p class="text-muted">BukCheon</p>
+                        <p class="text-muted">Bukchon</p>
                     </div>
                 </div>
-                
+
                 <!-- 서울타워 -->
                 <div class="col-md-3 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
@@ -150,7 +158,7 @@
                         <p class="text-muted">N Seoul Tower</p>
                     </div>
                 </div>
-                
+
                 <!-- 명동 -->
                 <div class="col-md-3 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
@@ -163,10 +171,10 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>명동</h4>
-                        <p class="text-muted">MyeongDong</p>
+                        <p class="text-muted">Myeong-dong</p>
                     </div>
                 </div>
-                
+
                 <!-- 경복궁 -->
                 <div class="col-md-3 portfolio-item">
                     <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
@@ -179,15 +187,15 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>경복궁</h4>
-                        <p class="text-muted">Kyongbuk Palace</p>
+                        <p class="text-muted">Gyeongbokgung</p>
                     </div>
                 </div>
-                
+
             </div> <!-- 7개 관광지 감싼 div 끝 -->
         </div> <!-- container div -->
     </section> <!-- project 전체를 감싼 section -->
 
-    <!-- About Section -->
+    <!-- About Section Why -->
     <section id="why">
         <div class="container">
             <div class="row">
@@ -224,7 +232,7 @@
                                     <h4 class="subheading">TripAdvisor 리뷰 데이터 수집</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">사람들이 솔직한 의견을 표현하는 TripAdvisor 후기를 보자!<br> 
+                                    <p class="text-muted">사람들이 솔직한 의견을 표현하는 TripAdvisor 후기를 보자!<br>
                                     Top7 관광지 선정 후, 리뷰(영어) 별점, 날짜, 국가 등 수집</p>
                                 </div>
                             </div>
@@ -286,57 +294,63 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="{% static 'img/team/4.jpg' %}" class="img-responsive img-circle" alt="">
+                        <a href = "https://www.facebook.com/francesca.jep" target="_blank">
+                            <img src="{% static 'img/team/4.jpg' %}" class="img-responsive img-circle" alt="">
+                        </a>
                         <h4>박재은</h4>
                         <p class="text-muted">Leader & Analyst</p>
-<!--                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul> -->
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="{% static 'img/team/6.jpg' %}" class="img-responsive img-circle" alt="">
+                        <a href = "https://www.facebook.com/yewon3265" target="_blank">
+                            <img src="{% static 'img/team/6.jpg' %}" class="img-responsive img-circle" alt="">
+                        </a>
                         <h4>장예원</h4>
                         <p class="text-muted">Communicator</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="{% static 'img/team/3.jpg' %}" class="img-responsive img-circle" alt="">
+                        <a href = "https://www.facebook.com/kjy0919" target="_blank">
+                            <img src="{% static 'img/team/3.jpg' %}" class="img-responsive img-circle" alt="">
+                        </a>
                         <h4>김재연</h4>
                         <p class="text-muted">Project Manager</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="team-member">
-                        <img src="{% static 'img/team/2.jpg' %}" class="img-responsive img-circle" alt="">
+                        <a href = "https://www.facebook.com/gyubin.son" target="_blank">
+                            <img src="{% static 'img/team/2.jpg' %}" class="img-responsive img-circle" alt="">
+                        </a>
                         <h4>손규빈</h4>
                         <p class="text-muted">Lead Developer</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="team-member">
-                        <img src="{% static 'img/team/5.jpg' %}" class="img-responsive img-circle" alt="">
+                        <a href = "https://www.facebook.com/yeji.yun.5" target="_blank">
+                            <img src="{% static 'img/team/5.jpg' %}" class="img-responsive img-circle" alt="">
+                        </a>
                         <h4>윤예지</h4>
                         <p class="text-muted">Project Manager<br>& Front Developer</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="team-member">
-                        <img src="{% static 'img/team/1.jpg' %}" class="img-responsive img-circle" alt="">
+                        <a href = "https://www.facebook.com/greena77" target="_blank">
+                            <img src="{% static 'img/team/1.png' %}" class="img-responsive img-circle" alt="">
+                        </a>
                         <h4>김그리나</h4>
                         <p class="text-muted">Lead Designer</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="team-member">
-                        <img src="{% static 'img/team/7.jpeg' %}" class="img-responsive img-circle" alt="">
+                        <a href = "https://www.facebook.com/profile.php?id=100002040190152" target="_blank">
+                            <img src="{% static 'img/team/7.jpeg' %}" class="img-responsive img-circle" alt="">
+                        </a>
                         <h4>한상균</h4>
                         <p class="text-muted">Analyst</p>
                     </div>
@@ -345,7 +359,7 @@
         </div>
     </section>
 
-    
+
     <!-- Contact Section -->
     <section id="comments">
         <div class="container">
@@ -371,219 +385,29 @@
 
 
 
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
+    <!-- Portfolio Modals - 프로젝트 디테일 -->
 
     <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                            <ul class="list-inline">
-                                <li>Date: July 2014</li>
-                                <li>Client: Round Icons</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% block modal1 %}{% endblock %}
 
     <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Deep dive into seoul</h2>
-                            <p class="item-intro text-muted">데이터로 서울 관광지 분석하기</p>
-                            <a href="/TapStylesInspiration/index.html">
-
-
-    <body>
-        <svg class="hidden">
-            <defs>
-                <path id="tabshape" d="M80,60C34,53.5,64.417,0,0,0v60H80z"/>
-            </defs>
-        </svg>
-
-
-                <div class="tabs tabs-style-flip">
-                    <nav>
-                        <ul>
-                            <li><a href="#section-flip-5" class="icon icon-plane"><span>Relation</span></a></li>
-                            <li><a href="#section-flip-4" class="icon icon-date"><span>Positive/negative</span></a></li>
-                            <li><a href="#section-flip-2" class="icon icon-gift"><span>Review</span></a></li>
-                            <li><a href="#section-flip-3" class="icon icon-coffee"><span>Rate</span></a></li>
-                            <li><a href="#section-flip-5" class="icon icon-tools"><span>Count</span></a></li>
-                            <li><a href="#section-flip-5" class="icon icon-tools"><span>6</span></a></li>
-                            <li><a href="#section-flip-5" class="icon icon-tools"><span>7</span></a></li>
-                        </ul>
-                    </nav>
-                    <div class="content-wrap">
-                        <section id="section-flip-1"><p>1</p></section>
-                        <section id="section-flip-2"><p>2</p></section>
-                        <section id="section-flip-3"><p>3</p></section>
-                        <section id="section-flip-4"><p>4</p></section>
-                        <section id="section-flip-5"><p>5</p></section>
-                    </div><!-- /content -->
-                </div><!-- /tabs -->
-            </section>
-
-        </div><!-- /container -->
-        <script src="js/cbpFWTabs.js"></script>
-        <script>
-            (function() {
-
-                [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
-                    new CBPFWTabs( el );
-                });
-
-            })();
-        </script>
-    </body>
-</html>
-
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% block modal2 %}{% endblock %}
 
     <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% block modal3 %}{% endblock %}
 
     <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% block modal4 %}{% endblock %}
 
     <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% block modal5 %}{% endblock %}
 
     <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% block modal6 %}{% endblock %}
+
+    <!-- Portfolio Modal 7 -->
+    {% block modal7 %}{% endblock %}
+
     <script src="{% static 'js/jquery.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
