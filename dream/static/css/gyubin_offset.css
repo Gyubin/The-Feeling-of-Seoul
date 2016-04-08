@@ -1,15 +1,5 @@
-div.gyubin_offset_modal_body {
-  /*width: 1024px;
-  height: 700px;
-  margin: 0;*/
-  /*padding-left: auto;
-  padding-right: auto;*/
-}
-
-div.gyubin_offset_modal_container {
-  width: 1200px;
+#gyubin {
   position: absolute;
-  margin-top: -140px;
- /* margin-left: auto;
-  margin-right: auto;*/
+  top: -80px;
+  left: -327px;
 }

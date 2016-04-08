@@ -1,0 +1,77 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>site</title>
+    <meta name="description" content="Tab Styles Inspiration: A small collection of styles for tabs" />
+    <meta name="keywords" content="tabs, inspiration, web design, css, modern, effects, svg" />
+    <meta name="author" content="Codrops" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/tab/normalize.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/tab/demo.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/tab/tabs.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/tab/tabstyles.css' %}" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <script src="{% static 'js/tab/modernizr.custom.js' %}"></script>
+  </head>
+  <body>
+    <svg class="hidden">
+      <defs>
+        <path id="tabshape" d="M80,60C34,53.5,64.417,0,0,0v60H80z"/>
+      </defs>
+    </svg>
+    <div class="container">
+      <header class="codrops-header">
+        <h1>북촌<!--  <span>A small collection of styles for tabs</span> --></h1>
+        <p id='i-want-serif'>Bukchon</p>
+      </header>
+      <div class="tabs tabs-style-flip">
+        <nav>
+          <ul>
+            <li><a href="#section-flip-1"><span>연관성-가중치</span></a></li>
+            <li><a href="#section-flip-2"><span>연관성-관계</span></a></li>
+            <li><a href="#section-flip-4"><span>리뷰</span></a></li>
+            <li><a href="#section-flip-3"><span>긍정/부정</span></a></li>
+            <li><a href="#section-flip-5"><span>단어 분포</span></a></li>
+          </ul>
+        </nav>
+        <div class="content-wrap">
+          <section id="section-flip-1">
+            <iframe width="1000" height="550" src="https://feel-seoul-gyubin.c9users.io/1" name='bukchon_test' id='bukchon_test' frameborder="0" scrolling="yes" align='center'>
+            </iframe>
+          </section>
+          <section id="section-flip-2">
+            <iframe width="1000" height="550" src="https://feel-seoul-gyubin.c9users.io/5" name='bukchon_test2' id='bukchon_test2' frameborder="0" scrolling="yes" align='center'>
+            </iframe>
+          </section>
+          <section id="section-flip-4">
+            <iframe width="1200" height="550" src="https://feel-seoul-gyubin.c9users.io/2" name='bukchon_test4' id='bukchon_test4' frameborder="0" scrolling="yes" align='center'>
+            </iframe>
+          </section>
+          <section id="section-flip-3">
+            <iframe width="1300" height="585" src="https://feel-seoul-gyubin.c9users.io/3" name='pos_neg' id='pos_neg' frameborder="0" scrolling="yes" align='center'>
+            </iframe>
+          </section>
+          <section id="section-flip-5">
+            <iframe width="1000" height="585" src="https://feel-seoul-gyubin.c9users.io/4" name='bukchon_test5' id='bukchon_test5' frameborder="0" scrolling="yes" align='center'>
+            </iframe>
+          </section>
+        </div><!-- /content -->
+      </div><!-- /tabs -->
+
+    </div><!-- /container -->
+    <script src="{% static 'js/tab/cbpFWTabs.js' %}"></script>
+    <script>
+      (function() {
+        [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+          new CBPFWTabs( el );
+        });
+      })();
+    </script>
+  </body>
+</html>

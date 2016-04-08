@@ -11,4 +11,11 @@ urlpatterns = [
     url(r'^get_data_2$', views.get_data_2, name='get_data_2'),
     url(r'^get_data_3$', views.get_data_3, name='get_data_3'),
     url(r'^get_data_4$', views.get_data_4, name='get_data_4'),
+    url(r'^bukchon$', views.bukchon, name='bukchon'),
+    url(r'^changdeokgung$', views.changdeokgung, name='changdeokgung'),
+    url(r'^insadong$', views.insadong, name='insadong'),
+    url(r'^gyeongbokgung$', views.gyeongbokgung, name='gyeongbokgung'),
+    url(r'^n_seoul_tower$', views.n_seoul_tower, name='n_seoul_tower'),
+    url(r'^war_memorial_korea$', views.war_memorial_korea, name='war_memorial_korea'),
+    url(r'^myeongdong$', views.myeongdong, name='myeongdong'),
 ]

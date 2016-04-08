@@ -3,12 +3,13 @@
 @font-face {
 	font-weight: normal;
 	font-style: normal;
-	font-family: 'codropsicons';
-	src:url('../fonts/codropsicons/codropsicons.eot');
+	font-family: serif;
+	/*font-family: 'codropsicons';*/
+	/*src:url('../fonts/codropsicons/codropsicons.eot');
 	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
 		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
-		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');*/
 }
 
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -16,7 +17,7 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: #e7ecea;
+	background: #f2f3f7;
 	color: #74777b;
 	font-weight: 400;
 	font-size: 1em;
@@ -68,16 +69,28 @@ p {
 
 /* Header */
 .codrops-header {
-	padding: 7em 0 3em;
+	padding: 2em 0 0em;
 	letter-spacing: -1px;
 }
 
 .codrops-header h1 {
 	max-width: 1200px;
 	margin: 0 auto;
-	font-weight: 800;
-	font-size: 5em;
+	font-weight: 500;
+	font-size: 1.7em;
 	line-height: 1;
+	color:#6d6577;
+	text-align: center;
+}
+#i-want-serif {
+	font-size:1.3em;
+	font-style: italic;
+	font-family:"Roboto Slab";
+	color: #9790a3;
+	margin-top:0;
+	padding-top:2px;
+	margin-bottom: 0;
+	opacity: 0.5;
 }
 
 .codrops-header h1 span {
