@@ -4,6 +4,7 @@ body {
   margin: auto;
   position: relative;
   width: 960px;
+  height: 500px;
 }
 
 form {
@@ -20,19 +21,3 @@ form {
   position: absolute;
   text-indent: 2px;
 }
-
-
-/* wordcloud */
-/*body {*/
-/*    font-family:"Lucida Grande","Droid Sans",Arial,Helvetica,sans-serif;*/
-/*}*/
-/*.legend {*/
-/*    border: 1px solid #555555;*/
-/*    border-radius: 5px 5px 5px 5px;*/
-/*    font-size: 0.8em;*/
-/*    margin: 10px;*/
-/*    padding: 8px;*/
-/*}*/
-/*.bld {*/
-/*    font-weight: bold;*/
-/*}*/
