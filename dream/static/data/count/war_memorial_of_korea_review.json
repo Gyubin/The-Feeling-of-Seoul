@@ -1,0 +1,47 @@
+[
+  {
+    "date": 2011,
+    "Japan": 7,
+    "USA": 8,
+    "Austrailia": 0,
+    "Russia": 0,
+    "UK": 1,
+    "Total": 24
+  },
+  {
+    "date": 2012,
+    "Japan": 24,
+    "USA": 43,
+    "Austrailia": 11,
+    "Russia": 2,
+    "UK": 17,
+    "Total": 171
+  },
+  {
+    "date": 2013,
+    "Japan": 24,
+    "USA": 75,
+    "Austrailia": 21,
+    "Russia": 8,
+    "UK": 23,
+    "Total": 293
+  },
+  {
+    "date": 2014,
+    "Japan": 29,
+    "USA": 75,
+    "Austrailia": 34,
+    "Russia": 36,
+    "UK": 37,
+    "Total": 505
+  },
+  {
+    "date": 2015,
+    "Japan": 33,
+    "USA": 146,
+    "Austrailia": 41,
+    "Russia": 32,
+    "UK": 35,
+    "Total": 674
+  }
+];

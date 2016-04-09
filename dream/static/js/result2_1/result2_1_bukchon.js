@@ -10,7 +10,7 @@ dP:[
 ['Singapore'],
 ['Malaysia'],
 ],
-distMin:2011,distMax:2016,
+distMin:2011,distMax:2015,
 dist:[
     //2011
     [76,2,4,4,2],
@@ -57,7 +57,7 @@ function distQuant(data, id){
       );
 
       function tW(d){
-         return x(d * (data[type].length) / 50);
+         return x(d * (data[type].length - 1) / 50);
       };
       function tH(d){
          return y(d * maxT / 50);
@@ -122,7 +122,7 @@ function distQuant(data, id){
         .style("stroke-opacity",0.3);
 
       function getHLabel(d,i){
-          var r= data.distMin + i * (data.distMax-data.distMin)/4-1;
+          var r= data.distMin + i * (data.distMax-data.distMin)/5;
           return Math.round(r*100)/100;
       }
 

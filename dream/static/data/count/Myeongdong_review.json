@@ -1,0 +1,47 @@
+[
+  {
+    "date": 2011,
+    "Japan": 70,
+    "USA": 2,
+    "China": 42,
+    "Russia": 0,
+    "Singapore": 3,
+    "Total": 125
+  },
+  {
+    "date": 2012,
+    "Japan": 118,
+    "USA": 17,
+    "China": 34,
+    "Russia": 2,
+    "Singapore": 29,
+    "Total": 293
+  },
+  {
+    "date": 2013,
+    "Japan": 94,
+    "USA": 39,
+    "China": 90,
+    "Russia": 25,
+    "Singapore": 50,
+    "Total": 483
+  },
+  {
+    "date": 2014,
+    "Japan": 57,
+    "USA": 50,
+    "China": 133,
+    "Russia": 108,
+    "Singapore": 73,
+    "Total": 718
+  },
+  {
+    "date": 2015,
+    "Japan": 108,
+    "USA": 97,
+    "China": 226,
+    "Russia": 90,
+    "Singapore": 112,
+    "Total": 1214
+  }
+];

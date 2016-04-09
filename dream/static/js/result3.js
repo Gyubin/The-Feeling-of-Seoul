@@ -136,7 +136,7 @@ var makeChart = function(svg, dataset, order, key){
   .delay(1600)
   .duration(2000)
   .attr("opacity", function(d, i) {
-          if (i < 5) { return 0.7; } else { return 0; }
+          if (i < 5) { return 0.3; } else { return 0; }
       });
 
     svg.append("text")
@@ -228,12 +228,12 @@ var makeChart = function(svg, dataset, order, key){
   // 국가별 구분 점선
   svg.append("line")
     .attr("x1", 0)
-    .attr("y1", order * 150 + 150)
+    .attr("y1", order * 120 + 120)
     .attr("x2", 0)
     .transition()
     .duration(1800)
     .attr("x2", svgWidth)
-    .attr("y2", order * 150 + 150)
+    .attr("y2", order * 120 + 120)
     .attr("stroke-width", "1px")
     .attr("stroke", "#5B4A4C")
     .attr("opacity", 0.6)
@@ -247,7 +247,7 @@ var makeChart = function(svg, dataset, order, key){
     .attr("width", 44.5)
     .attr("height", 16)
     .attr("x", margin.left - 130)
-    .attr("y", order * 150 + 147);
+    .attr("y", order * 120 + 117);
 
   svg.append("text")
     .attr("class", "location")
@@ -256,7 +256,7 @@ var makeChart = function(svg, dataset, order, key){
     .duration(1500)
     .attr("opacity", 1)
     .attr("x", margin.left - 108)
-    .attr("y", order * 150 + 157)
+    .attr("y", order * 120 + 127)
     .text(key);
 
   // 원 그리기
@@ -270,7 +270,7 @@ var makeChart = function(svg, dataset, order, key){
       return i * 45 + 50 + margin.left;
     })
     .attr("cy", function() {
-      return order * 150 + 150
+      return order * 120 + 120
     })
     .attr("opacity", 0.7)
     .attr("r", 0)
@@ -301,7 +301,7 @@ var makeChart = function(svg, dataset, order, key){
       .transition()
       .duration(200)
       .style("left", x * 9 + 26 + margin.left + "px")
-      .style("top", (order * 150 + 143) + "px")
+      .style("top", (order * 120 + 113) + "px")
       .style("opacity", 1)
       .text(d+"개");
     })

@@ -31,7 +31,7 @@ def result2(request):
 def result3(request):
     return render(request, 'dream/result3.html', {})
 def result4(request):
-    return render(request, 'dream/result4.html')
+    return render(request, 'dream/result2_1.html')
 
 # get all 35 datas.
 def get_data_1(request):
