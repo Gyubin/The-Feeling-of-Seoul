@@ -1,6 +1,6 @@
 (function() {
 var svgWidth = 1280;
-var svgHeight = 1500;
+var svgHeight = 1000;
 var svg = d3.select("#myGraph");
 var legendWidth = 100,
     legendHeight = 15,
@@ -209,12 +209,12 @@ var makeChart = function(svg, dataset, order, key){
     .attr("x1", function(d, i) {
         if (i < 11) {
           return i * 90 + 50 + margin.left;
-        } else { return null;}
+        } else { return -50;}
       })
     .attr("x2", function(d, i) {
         if (i < 11) {
           return i * 90 + 50 + margin.left;
-        } else { return null;}
+        } else { return -50;}
       })
     .attr("y1", 80)
     .attr("y2", 80)
@@ -315,7 +315,7 @@ var makeChart = function(svg, dataset, order, key){
 
 }
 
-d3.json("get_data_3", function(error, dataset) {
+d3.json("get_data_pos_ntower", function(error, dataset) {
   var order = 0
   nation_order = dataset.order
   for (var i = 0; i < nation_order.length; i++) {

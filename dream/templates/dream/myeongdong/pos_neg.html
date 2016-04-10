@@ -1,0 +1,14 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>DOT</title>
+        <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="{% static 'css/pos_neg/md.css' %}">
+    </head>
+    <body>
+        <div class="greena">
+          <svg id="myGraph"></svg>
+        </div>
+        <script src="{% static 'js/pos_neg/md.js' %}"></script>
+    </body>
+</html>
