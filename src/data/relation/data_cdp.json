@@ -1,0 +1,26 @@
+{
+ "name": "changdeok",
+ "children": [
+  {
+     "name": "Garden",
+     "content": ": 창덕궁 비원을 걷기 좋은 장소로 추천",
+     "children": [
+      {"name": "Secret", "size": 58, "content": " → Garden"},
+      {"name": "Guide", "size": 19, "content": " → Garden"},
+      {"name": "English", "size": 10, "content": " → Garden"},
+      {"name": "History", "size": 2, "content": " → Garden"},
+      {"name": "Recommend", "size": 1, "content": " → Garden"}
+     ]
+    },
+    {
+     "name": "Tour",
+     "content": ": 영어로 진행되는 가이드 투어가 잘 되어있음",
+     "children": [
+      {"name": "English", "size": 12, "content": " → Tour"},
+      {"name": "Secret", "size": 7, "content": " → Tour"},
+      {"name": "Garden", "size": 5, "content": " → Tour"},
+      {"name": "Time", "size": 3, "content": " → Tour"}
+     ]
+    }
+ ]
+}

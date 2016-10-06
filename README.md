@@ -1,25 +1,3 @@
-# ReduxSimpleStarter
+# Deep dive into Seoul
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
-###Getting Started###
-
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
+DOT 팀 프로젝트. 서울 관광지 7곳에 대한 외국인 관광객들의 반응을 분석.
